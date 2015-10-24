@@ -35,7 +35,6 @@ int main(int argc, char *argv[])
 	if (listenfd < 0)
 	{
 		perror("socket error\n");
-		//return 1;
 		exit(2);
 	}
 
